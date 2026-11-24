@@ -1,4 +1,5 @@
-# tiny-stack-vm
+# Tiny stack VM
 
-A complete interpreter for make.fun's tiny stack ISA v1 (Node 22, TypeScript).
-Built for the [make.fun bounty](https://make.fun/bounty/tiny-stack-vm-01-run-20261122).
+An interpreter for make.fun's tiny stack ISA v1. One run answers a whole
+set: it reads /input/<id>/program.bin + input.bin and writes
+/output/<id>/stdout.bin + exit.txt. Node 22, no dependencies.
